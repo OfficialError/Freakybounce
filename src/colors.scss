@@ -12,11 +12,11 @@ $arraylist-base-color: #631c59;
 $arraylist-text-color: white;
 $arraylist-tag-color: #AAAAAA;
 
-$targethud-base-color: black;
+$targethud-base-color: rgb(54, 4, 35);
 $targethud-text-color: white;
 $targethud-text-dimmed-color: rgba(211, 211, 211, 255);
 
-$hotbar-base-color: black;
+$hotbar-base-color: rgb(34, 2, 22);
 $hotbar-text-color: white;
 /* TODO: currently unused */
 $hotbar-experience-color: #88C657;
@@ -24,7 +24,7 @@ $hotbar-health-color: #FC4130;
 $hotbar-hunger-color: #B88458;
 
 $menu-account-premium-color: #67D24A;
-$menu-base-color: black;
+$menu-base-color: rgb(32, 2, 16);
 $menu-text-color: white;
 $menu-text-dimmed-color: rgba(211, 211, 211, 255);
 $menu-error-color: #fc4130;

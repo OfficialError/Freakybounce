@@ -18,7 +18,7 @@
             "a c";
     grid-template-columns: max-content 1fr;
     column-gap: 10px;
-    background: rgba(0, 0, 0, 0.68);
+    background: rgba(54, 33, 51, 0.68);
     border-radius: 5px;
     width: 300px;
     overflow: hidden;
