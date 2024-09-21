@@ -2,11 +2,24 @@
     export let title: string;
     export let message: string;
     export let severity: string;
+
+    $: modifiedTitle = title;
+    
+    $: {
+        if (severity.toString().toLowerCase() === 'disabled') {
+            modifiedTitle = title + " ;-;";
+        } else if (severity.toString().toLowerCase() === 'enabled') {
+            modifiedTitle = title + " ^w^";
+        } else {
+            modifiedTitle = title;
+        }
+    }
+
 </script>
 
 <div class="notification">
     <div class="icon {severity.toString().toLowerCase()}"/>
-    <div class="title">{title.replace("Disabled", "Disabled ;-;").replace("Enabled", "Enabled ^w^")}</div>
+    <div class="title">{modifiedTitle}</div>
     <div class="message">{message}</div>
 </div>
 

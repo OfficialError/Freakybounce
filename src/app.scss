@@ -28,6 +28,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Product-Sans";
+    src: url("./assets/font/product-sans/Product-Sans-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Product-Sans";
+    src: url("./assets/font/product-sans/Product-Sans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,7 +53,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Product-Sans", sans-serif;
     user-select: none;
     overflow: hidden;
 }
